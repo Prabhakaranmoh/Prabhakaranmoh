@@ -1,0 +1,14 @@
+# Example: Iterating through a list using a for loop
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+
+# Example: Iterating through a range of numbers
+for i in range(5):  # Will loop from 0 to 4
+    print(f"Iteration {i}")
+
+# Example: Using break to stop the loop early
+for i in range(10):
+    if i == 5:
+        break  # Stops the loop when i is 5
+    print(i)
